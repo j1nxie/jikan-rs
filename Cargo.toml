@@ -1,8 +1,24 @@
 [package]
 name = "jikan-rs"
 version = "0.1.0"
+author = "j1nxie"
 edition = "2021"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.19"
+serde_json = "1.0"
+
+[dependencies.reqwest]
+version = "0.11.10"
+features = ["json"]
+
+[dependencies.tokio]
+version = "1.17.0"
+features = ["full"]
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]
