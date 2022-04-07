@@ -9,7 +9,7 @@ use crate::{
         DateRange,
         MalUrl,
         Pagination,
-    }
+    },
 };
 
 pub mod characters;
